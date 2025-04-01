@@ -2,6 +2,7 @@ from data_loader import load_data
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 #Load Data
 train_data, test_data = load_data()

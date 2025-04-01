@@ -32,3 +32,11 @@ plt.title("Age Distribution After Cleaning")
 plt.savefig(os.path.join("..","age_distribution.png"))
 plt.close()
 print("Age distribution plot saved as 'age_distribution.png'")
+
+
+# Daily challege 
+sns.countplot(x="Embarked", hue="Survived", data=train_cleaned)
+plt.title=("Survival by Embarkation Port")
+plt.savefig(os.path.join("..","survival_by_embarked.png"))
+plt.close()
+print("Survival by embarked plot save as 'survival_by_embarked.png'")
